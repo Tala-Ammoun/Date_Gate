@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Checkout</title>
+	</head>
+	<body>
+		<h2> Personal Details </h2>
+		<label for="Title"> Title: </label> &nbsp &nbsp &nbsp
+			<select id="Title">
+					<option value="Mr."> Mr. </option>
+					<option value="Mrs."> Mrs. </option>
+					<option value="Miss."> Miss. </option>
+					<option value="Dr."> Dr. </option>
+					<option value="PhD"> PhD. </option>
+			</select>
+			<br><br>
+		<label for="First name"> First name*: </label>
+			<input type="text" id="First name" name="First name">
+			<br><br>
+		<label for="Last name"> Last name*: </label>
+			<input type="text" id="Last name" name="Last name">
+			<br><br>
+		<label for="email"> Email*: </label>
+			<input type="text" id="email" name="email" placeholder="johnsnow@gmail.com">
+			<br><br>
+			<label for="Password"> Password*: </label>
+			<input type="password" id="Password" name="Password">
+			<br> <br>
+		<label for="Phone_number"> Phone Number: </label>
+			<input type="tel" id="Phone_number" name="Phone_number">
+
+		<h2> Billing Address </h2>
+		<label for="Flat_nb"> Flat/bldg nb*: </label>
+			<input type="tel" id="Flat_nb" name="Flat_nb">
+			<br> <br>
+			<label for="Street"> Address 1: </label>
+			<input type="text" id="Street" name="Street">
+			<br> <br>
+			<label for="Address_2"> Address 2: </label>
+			<input type="text" id="Address_2" name="Address_2">
+			<br> <br>
+			<label for="Postcode"> Postcode*: </label>
+			<input type="text" id="Postcode" name="Postcode">
+			<br> <br>
+			<label for="City"> City: </label>
+			<input type="text" id="City" name="City">
+			<br> <br>
+			<label for="Country"> Country: </label>
+			<input type="text" id="Country" name="Country">
+
+
+
+		<h2> Card Details </h2>
+		<label for="Promo_code"> Add promo code: </label>
+			<input type="text" id="Promo_code" name="Promo_code"> <button> Apply </button> 
+			<br> <br>
+		<label for="Payment_Type"> Payment type*: </label>  &nbsp &nbsp &nbsp
+		<label for="Visa"> Visa </label>
+			<input type="radio" value="Visa" id="Visa" name="Payment"> 
+		<label for="Mastercard"> Mastercard </label>
+			<input type="radio" value="Mastercard" id="Mastercard" name="Payment"> 
+		<label for="Klarna"> Klarna </label>
+			<input type="radio" value="Klarna" id="Klarna" name="Payment"> 
+		<label for="Paypal"> PayPal </label>
+			<input type="radio" value="Paypal" id="Paypal" name="Payment"> 
+		<label for="Crypto"> Crypto </label>
+			<input type="radio" value="Crypto" id="Crypto" name="Payment"> 
+		<br><br>
+
+		<form>
+			<label for="Card_Number"> Card number*: </label>
+			<input type="tel" id="Card_Number" name="Card_Number">
+			<br> <br>
+			<label for="Name_on_card"> Name on card*: </label>
+			<input type="text" id="Name_on_card" name="Name_on_card">
+			<br> <br>
+			<label for="Exp"> Exp*: </label>
+			<input type="date" id="Exp" name="Exp" min="2017-01-01" max="2027-01-01">
+			<br> <br>
+			<label for="Digit_Code"> Security code*: </label>
+			<input type="tel" id="Digit_Code" name="Digit_Code">
+			<br> <br>
+			<button> Pay now </button>
+		</form>
+	</body>
+</html>

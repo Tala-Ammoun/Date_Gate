@@ -1,0 +1,340 @@
+html{font-family: 'David Libre', serif;}
+p.smallfont{font-family: 'David Libre', serif;
+	font-size: 90%;}
+p.boldfont{font-family: 'David Libre', serif;
+	font-size: 160%;
+	font-weight: bold;}
+p.biggerfont{
+	font-family: 'David Libre', serif;
+	font-size: 110%;}
+
+
+/*Upper extensions*/
+.upper{border-right: 1px hidden;
+	border-radius:10px;
+	padding:3%;}
+a:link.upper{color: black;
+	text-decoration: none;}
+a:visited.upper{color: black}
+a:hover.upper{background-color: #e6e6e6}
+div.upperextensions{
+    margin-top:1%;
+    border: hidden;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+    display:flex;}
+div.topright{
+    border: hidden;
+    margin-top:1.3%;
+    margin-right:3%;
+	width: 50%;
+	height: 50%;
+	text-align: right;
+	padding-top: 1%;
+    flex:1.3;}
+div.topleft{
+    border: hidden;
+	width: 50%;
+	height: 50%;
+    padding-left:50px;
+    flex:0.7;}
+button:hover.button{background-color: #dbdbd9;}
+button:active.button{background-color: #adaba6}
+.button{font-family: 'David Libre', serif;}
+
+/*welcoming*/
+/*#welcoming{background-image: url("77.jpg");
+	background-repeat: no-repeat;
+	background-size: contain; 
+	background-size: 100% 95%;
+	background-position: center;
+	background-attachment: scroll;}
+#title1{color: floralwhite;
+	text-align: center;
+	font-size: 250%;
+	font-weight: bold;
+	margin: 0%;}
+#title2{color: floralwhite;
+	text-align: center;
+	font-size: 100%;
+	font-weight: bold;
+	margin: 0%;
+	Padding-top: 0.5%}*/
+
+/*Two Cool Features*/
+#features{border-style: hidden;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	display: flex;}
+#feature1{border-style: hidden;
+	width: 45%;
+	height: 50%;
+	text-align: center;
+	flex: 1;}
+#feature2{border-style: hidden;
+	width: 45%;
+	height: 50%;
+	text-align: center;
+	flex: 1;}
+#img1{width: 90%;
+	height: 90%;
+	margin-left: 4.5%;
+	object-position: center}
+#img2{width: 90%;
+	height: 120%;
+	object-position: center;}
+
+/*pay per use*/
+#payperuse{border-style: hidden;
+	padding-left: 15px;
+	padding-right: 20px;
+	padding-bottom: 0%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;}
+#student{border-style: hidden;
+	text-align: center;
+	font-size: 80%}
+#single{border-style: hidden;
+	text-align: center;
+	font-size: 80%;}
+#couple{border-style: hidden;
+	text-align: center;
+	font-size: 80%;}
+
+/*subscription*/
+#subscriptions{border-style: hidden;
+	padding-left: 15px;
+	padding-right: 20px;
+	padding-bottom: 3%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;}
+#regular{border-style: hidden;
+	text-align: center;
+	font-size: 80%;}
+#fancy{border-style: hidden;
+	text-align: center;
+	font-size: 80%;}
+#luxury{border-style: hidden;
+	text-align: center;
+	font-size: 80%;}
+
+
+/*Contact us*/
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	font-family:"Times New Roman";
+	font-size:16px;}
+input[type=submit] {
+	background-color: #45a049;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family:"Times New Roman";}
+input[type=submit]:hover {
+	background-color: darkgrey;}
+#pagetitle{margin-left:10px;
+	margin-top:0px;
+	padding:0px;
+	display:flow-root;}
+.email{border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	width:45%;}
+.visit{position:absolute;
+	top:60px;
+	right:10px;
+	width:600px;
+	height:512px;
+	border-radius: 5px;
+	font-size:16px;
+	padding:0px;}
+iframe{display:block;
+	padding-top:7px;
+	padding-bottom:7px;}
+.Fcontact{padding-top:20px;}
+
+
+/*Bottom extensions*/
+a:link.links{color: black;
+	text-decoration: none;}
+	a:visited.links{color: black}
+	a:hover.links{text-decoration: underline;}
+#bottomextensions{border-style: hidden;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	display: flex;}
+#company{border-style: hidden;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 100%;
+	flex: 1;}
+#support{border-style: hidden;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 100%;
+	flex: 1;}
+#policies{border-style: hidden;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 100%;
+	flex: 1;}
+#partners{border-style: hidden;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 100%;
+	flex: 1;}
+#community{border-style: hidden;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 100%;
+	flex: 1;} 
+
+/*About us*/
+#heading{margin-left: 7%;
+	font-size: 200%;
+	margin-bottom: 0%;
+	margin-top: 2%;}
+div#section1{border-style: hidden;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	margin-bottom: 7%;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;}
+div#section2{border-style: hidden;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	margin-bottom: 4%;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;}
+div#section3{border-style: hidden;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 7%;
+	margin-bottom: 7%;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;}
+.smallheadings{font-size: 150%;
+	font-family: 'David Libre', serif;}
+.para{font-size: 100%;
+	font-family: 'David Libre', serif;}
+#surprise{
+	float: left;
+	margin-right: 5%;
+	height: 52%;
+	width: 50%;}
+#expensive{
+	float: right;
+	margin-left: 5%;
+	height: 55%;
+	width: 50%;}
+#introverted{
+	float: left;
+	margin-right: 5%;
+	height: 55%;
+	width: 50%;}
+
+/*Log In*/
+#login{border-style: hidden;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	display: flex;}
+#create{border-style: hidden;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 100%;
+	flex: 1;}
+#existing{border-style: hidden;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 100%;
+	flex: 1;}
+
+
+/*find experiences*/
+#bigcontainer{margin-top: 5%;
+	display: grid;
+	grid-template-columns: 1fr  1fr 1fr 1fr 1fr;
+	grid-gap: 1%;}
+.textandimgcontainer{
+	position: relative;
+	width: 100%;
+ 	animation: animate;
+ 	animation-duration: 5s;}
+.textcontainer{
+	opacity: 0;
+	width: 100%;
+ 	position: absolute;
+	top: 40%;
+	left: 0%;
+ 	text-align: center;}
+.image{width: 100%;
+  	height: 100%;
+  	display:  block;
+  	transition: .2s ease;
+  	backface-visibility: hidden;}
+.textandimgcontainer:hover .image{opacity: 0.2;}
+.textandimgcontainer:hover .textcontainer{opacity: 1;}
+.text{color: black;
+ 	font-size: 28px;
+ 	padding: 16px 32px;
+ 	backface-visibility: hidden;}
+ @keyframes animate{
+ 	0%{transform: translateY(200px);}
+ 	100%{transform: translateY(0px);}
+ 					}
+ 
+.pictures:hover{opacity: 0.5;}
+
+
+
+
+/*#underline{
+	font-size:  20px;
+	text-decoration: underline papayawhip; 
+	(width) 90% (height) 120%; 
+	background-size: contain
+	margin: 2% 3% 0% 3%;
+	text-shadow: 20px,20px,3px, #b52e05
+	#e3e2e1 #f2f2f2;
+	border-style: black;
+	<button type="button" class="button"> Find Experiences </button>
+	}
+	color: #e31722 
+	.text1{font-size: 150%;}
+	.text2{font-size: 120%;}
+	<p class="para">
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;*/
+
+
+
